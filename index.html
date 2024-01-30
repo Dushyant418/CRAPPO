@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRAPPO</title>
+
+    <link rel="shortcut icon" href="./dist/images/Logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="./dist/output.css">
-    <link rel="shortcut icon" href="./images/Logo.svg" type="image/x-icon">
 </head>
 
 <body>
-    <section class="bg-[#0D0D2B] relative">
+    <section class="bg-[#0D0D2B] relative z-10">
         <div
             class=" container max-w-[1200px] mx-auto px-[12px] min-h-[100%] flex justify-between items-center py-[23px]">
             <div class="logo flex gap-[16px] items-center">
@@ -40,53 +41,59 @@
             <div
                 class="menulist flex  gap-[38px]  max-lg:fixed max-lg:bg-[#0D0D2B] max-lg:z-40 max-lg:w-full max-lg:h-full max-lg:top-0 max-lg:justify-center items-center max-lg:right-[-100%]">
                 <ul class="flex gap-[32px] items-center max-lg:flex-col">
-                    <li><a href=""
+                    <li><a href="#"
                             class="text-[16px] leading-[28px] tracking-[0.16px] text-white font-normal relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik">Products</a>
                     </li>
-                    <li><a href=""
+                    <li><a href="#"
                             class="text-[16px] leading-[28px] tracking-[0.16px] text-white font-normal relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik">Features</a>
                     </li>
-                    <li><a href=""
+                    <li><a href="#"
                             class="text-[16px] leading-[28px] tracking-[0.16px] text-white font-normal relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik">About</a>
                     </li>
-                    <li><a href=""
+                    <li><a href="#"
                             class="text-[16px] leading-[28px] tracking-[0.16px] text-white font-normal relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik">Contact</a>
                     </li>
-                    <li><a href=""
+                    <li><a href="#"
                             class="text-[16px] leading-[28px] tracking-[0.16px] text-white font-normal relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik">Login</a>
                     </li>
+                    <span class="h-[24px] w-[1px] bg-[#F2F2F2] hidden lg:block"></span>
                     <div>
                         <button
-                            class="text-white text-[16px] leading-[150%] font-medium  rounded-[32px] px-[32px] hover:bg-white hover:text-[#3671E9] py-[14px] bg-[#3671E9] font-Rubik">Register</button>
+                            class="before:ease relative overflow-hidden border-white border after:border-none text-white shadow-2xl transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#3671E9] before:duration-300 hover:text-white hover:shadow-blue-500 hover:before:h-64 hover:before:-translate-y-32 rounded-[32px] px-[32px] py-[14px] hover:border-[#3671E9] font-Rubik text-[16px] font-medium leading-[150%]">
+                            <span class="relative z-10">Register</span>
+                        </button>
                     </div>
                 </ul>
             </div>
         </div>
         <div class="container max-w-[1200px] mx-auto px-[12px]">
-            <div class="flex flex-col-reverse lg:flex-row flex-wrap mx-[-12px] pb-[70px] md:pb-[100px]">
-                <div class="lg:w-[50%] w-full px-[12px] pt-[90px] lg:pt-[130px]">
-                    <div class="bg-[#252540] flex rounded-[32px] max-w-[365px] px-[4px] py-[4px] max-md:mb-[24px]">
+            <div class="flex flex-col-reverse lg:flex-row flex-wrap mx-[-12px] pb-[70px] md:pb-[100px] z-30">
+                <div class="lg:w-[50%] w-full px-[12px] pt-[90px] lg:pt-[130px] z-30">
+                    <div class="bg-[#252540] flex rounded-[32px] max-w-[365px] px-[4px] py-[4px] max-md:mb-[24px] z-30">
                         <div class="bg-white rounded-[32px]">
                             <p
-                                class="text-[#0D0D2B] text-[16px] font-Rubik font-medium leading-[150%] tracking-[0.64px] px-[16px] py-[4px] text-nowrap">
+                                class="text-[#0D0D2B] text-[12px] sm:text-[16px] font-Rubik font-medium leading-[150%] tracking-[0.64px] px-[16px] py-[4px] text-nowrap">
                                 75% SAVE</p>
                         </div>
                         <p
-                            class="text-white text-[16px] font-Rubik max-sm:leading-[17px] sm:leading-[28px] tracking-[0.16px] pl-[16px]">
+                            class="text-white text-[12px] sm:text-[16px] flex items-center font-Rubik max-sm:leading-[17px] sm:leading-[28px] tracking-[0.16px] pl-[16px]">
                             For the Black
                             Friday weekend</p>
                     </div>
-                    <h3 class="text-[37px] sm:text-[64px] font-bold max-w-[588px] font-Rubik text-white">Fastest & secure platform
+                    <h3 class="text-[37px] sm:text-[64px] font-bold max-w-[588px] font-Rubik text-white">Fastest &
+                        secure platform
                         to invest in
                         crypto</h3>
-                    <p class="text-[#E0E0E0] font-Rubik text-[16px] leading-[28px] tracking-[0.16px] max-w-[435px] pb-[32px]">Buy
+                    <p
+                        class="text-[#E0E0E0] font-Rubik text-[16px] leading-[28px] tracking-[0.16px] max-w-[435px] pb-[32px]">
+                        Buy
                         and sell cryptocurrencies, trusted by 10M wallets with over $30 billion in transactions.</p>
                     <div>
                         <button
-                            class="text-white font-Rubik hover:bg-white hover:text-[#3671E9] text-[16px] leading-[150%] font-medium  rounded-[32px] pl-[32px] pr-[16px] py-[14px] bg-[#3671E9] flex gap-[14px]">Try
-                            for FREE <span class="bg-white rounded-[50px]"><svg class="px-[4px] py-[4px]"
-                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none">
+                            class="text-white font-Rubik hover:bg-white hover:text-[#3671E9] text-[16px] leading-[150%] font-medium  rounded-[32px] pl-[32px] pr-[16px] py-[14px] bg-[#3671E9] flex gap-[14px] z-30">Try
+                            for FREE <span class="bg-white rounded-[50px]">
+                                <svg class="px-[4px] py-[4px]" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none">
                                     <path
                                         d="M10.4999 17.0002C10.3683 17.0009 10.2379 16.9757 10.116 16.9259C9.9942 16.8762 9.88338 16.8029 9.78994 16.7102C9.69621 16.6172 9.62182 16.5066 9.57105 16.3848C9.52028 16.2629 9.49414 16.1322 9.49414 16.0002C9.49414 15.8682 9.52028 15.7375 9.57105 15.6156C9.62182 15.4937 9.69621 15.3831 9.78994 15.2902L13.0999 12.0002L9.91994 8.69017C9.73369 8.50281 9.62915 8.24936 9.62915 7.98517C9.62915 7.72099 9.73369 7.46754 9.91994 7.28017C10.0129 7.18644 10.1235 7.11205 10.2454 7.06128C10.3672 7.01051 10.4979 6.98438 10.6299 6.98438C10.762 6.98438 10.8927 7.01051 11.0145 7.06128C11.1364 7.11205 11.247 7.18644 11.3399 7.28017L15.1999 11.2802C15.3832 11.4671 15.4858 11.7184 15.4858 11.9802C15.4858 12.2419 15.3832 12.4932 15.1999 12.6802L11.1999 16.6802C11.1102 16.7771 11.0021 16.8553 10.882 16.9102C10.7618 16.9651 10.632 16.9957 10.4999 17.0002Z"
                                         fill="#3671E9" />
@@ -98,20 +105,20 @@
                 </div>
             </div>
         </div>
-        <div class="absolute bottom-0 right-0">
+        <div class="absolute bottom-0 right-0 z-0">
             <img src="./dist/images/[]-4.png" alt="">
         </div>
-        <div class="absolute bottom-0 right-0">
-            <img src="./dist/images/[]-5.png" alt="">
+        <div class="absolute bottom-[-165px] right-[371px] z-0">
+            <img src="./dist/images/[].png" alt="">
         </div>
     </section>
     <section class="bg-[#0D0D2B] relative">
         <div class="container max-w-[1200px] mx-auto px-[12px]">
             <div class="flex flex-wrap mx-[-12px] pb-[70px] md:pb-[100px] sm:pb-[175px] pt-[100px]">
-                <div class="md:w-[50%] lg:w-[33.33%] w-full px-[12px] flex flex-col max-lg:pb-[24px] lg:items-start">
-                    <div class="flex gap-[24px]">
+                <div class="md:w-[50%] lg:w-[33.33%] w-full px-[12px] flex flex-col max-lg:pb-[24px] lg:items-start z-20">
+                    <div class="flex gap-[24px] group">
                         <div
-                            class="bg-[#252540] rounded-[50px] px-[24px] py-[24px] h-[80px] w-[80px] flex items-center justify-center">
+                            class="bg-[#252540] rounded-[50px] px-[24px] py-[24px] h-[80px] w-[80px] flex items-center justify-center group-hover:bg-white">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
                                 fill="none">
                                 <path
@@ -130,15 +137,17 @@
                         </div>
                         <div>
                             <h5 class="text-white text-[40px] font-bold leading-[150%] font-Rubik">$30B</h5>
-                            <p class="text-[#E0E0E0] text-[16px] max-w-[230px] leading-[28px] tracking-[0.16px] font-Rubik">Digital
+                            <p
+                                class="text-[#E0E0E0] text-[16px] max-w-[230px] leading-[28px] tracking-[0.16px] font-Rubik">
+                                Digital
                                 Currency Exchanged</p>
                         </div>
                     </div>
                 </div>
-                <div class="md:w-[50%] lg:w-[33.33%] w-full px-[12px] flex flex-col max-lg:pb-[24px] lg:items-center">
-                    <div class="flex gap-[24px]">
+                <div class="md:w-[50%] lg:w-[33.33%] w-full px-[12px] flex flex-col max-lg:pb-[24px] lg:items-center z-20">
+                    <div class="flex gap-[24px] group">
                         <div
-                            class="bg-[#252540] rounded-[50px] px-[24px] py-[24px] h-[80px] w-[80px] flex items-center justify-center">
+                            class="bg-[#252540] group-hover:bg-white rounded-[50px] px-[24px] py-[24px] h-[80px] w-[80px] flex items-center justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
                                 fill="none">
                                 <path
@@ -151,15 +160,17 @@
                         </div>
                         <div>
                             <h5 class="text-white text-[40px] font-bold leading-[150%] font-Rubik">10M+</h5>
-                            <p class="text-[#E0E0E0] text-[16px] max-w-[230px] leading-[28px] tracking-[0.16px] font-Rubik">Trusted
+                            <p
+                                class="text-[#E0E0E0] text-[16px] max-w-[230px] leading-[28px] tracking-[0.16px] font-Rubik">
+                                Trusted
                                 Wallets Investor</p>
                         </div>
                     </div>
                 </div>
-                <div class="md:w-[50%] lg:w-[33.33%] w-full px-[12px] flex flex-col max-lg:pb-[24px] lg:items-end">
-                    <div class="flex gap-[24px]">
+                <div class="md:w-[50%] lg:w-[33.33%] w-full px-[12px] flex flex-col max-lg:pb-[24px] lg:items-end z-20">
+                    <div class="flex gap-[24px] group">
                         <div
-                            class="bg-[#252540] rounded-[50px] px-[24px] py-[24px] flex items-center justify-center h-[80px] w-[80px]">
+                            class="bg-[#252540] group-hover:bg-white rounded-[50px] px-[24px] py-[24px] flex items-center justify-center h-[80px] w-[80px]">
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
                                 fill="none">
                                 <path
@@ -169,7 +180,8 @@
                         </div>
                         <div>
                             <h5 class="text-white text-[40px] font-bold leading-[150%] font-Rubik">195</h5>
-                            <p class="text-[#E0E0E0] text-[16px] max-w-[230px] leading-[28px] tracking-[0.16px] font-Rubik">
+                            <p
+                                class="text-[#E0E0E0] text-[16px] max-w-[230px] leading-[28px] tracking-[0.16px] font-Rubik">
                                 Countries Supported</p>
                         </div>
                     </div>
@@ -185,13 +197,16 @@
                             class="max-w-[480px] font-Rubik text-white text-[35px] sm:text-[40px] font-bold leading-[150%] pb-[23px]">
                             Why you should
                             choose CRAPPO</h4>
-                        <p class="text-[#E0E0E0] font-Rubik max-w-[408px] text-[16px] leading-[28px] tracking-[0.16px] pb-[31px]">
+                        <p
+                            class="text-[#E0E0E0] font-Rubik max-w-[408px] text-[16px] leading-[28px] tracking-[0.16px] pb-[31px]">
                             Experience the next generation cryptocurrency platform. No financial borders, extra fees,
                             and
                             fake reviews.</p>
                         <button
-                            class="text-white font-Rubik text-[16px] leading-[150%] font-medium hover:bg-white hover:text-[#3671E9] rounded-[32px] px-[24px] py-[16px] bg-[#3671E9]">Learn
-                            More</button>
+                            class="before:ease relative overflow-hidden border-white border after:border-none text-white shadow-2xl transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#3671E9] before:duration-300 hover:text-white hover:shadow-blue-500 hover:before:h-64 hover:before:-translate-y-32 rounded-[32px] px-[32px] py-[14px] hover:border-[#3671E9] font-Rubik text-[16px] font-medium leading-[150%]">
+                            <span class="relative z-10">Learn
+                                More</span>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -220,10 +235,13 @@
     <section class="bg-[#0D0D2B]">
         <div class="container max-w-[1200px] mx-auto px-[12px]">
             <div class="flex items-center flex-col">
-                <h3 class="text-white font-Rubik max-w-[741px] text-[35px] sm:text-[40px] font-bold leading-[150%] pb-[24px]">Check
+                <h3
+                    class="text-white font-Rubik max-w-[741px] text-[35px] sm:text-[40px] font-bold leading-[150%] pb-[24px]">
+                    Check
                     how much you
                     can earn</h3>
-                <p class="text-[#E0E0E0] font-Rubik text-[18px] leading-[150%] max-w-[622px] text-center pb-[64px]">Let’s check
+                <p class="text-[#E0E0E0] font-Rubik text-[18px] leading-[150%] max-w-[622px] text-center pb-[64px]">
+                    Let’s check
                     your hash
                     rate to see how
                     much you will earn today, Exercitation veniam consequat sunt nostrud amet.</p>
@@ -237,13 +255,22 @@
                             placeholder="Enter your hash rate">
                     </div>
                     <div class="pr-[48px] max-lg:pb-[24px]">
-                        <input type="text"
-                            class="w-[200px] outline-0 font-Rubik border-b-2 placeholder:text-[#0D0D2B] text-[#0D0D2B] text-[20px] leading-[150%]"
-                            placeholder="TH/s">
+                        <div class="flex justify-between max-md:gap-[20px]">
+                            <select
+                                class="w-[200px] bg-transparent border-b-2 border-solid border-[#E0E0E0] pb-2 outline-none text-[#0D0D2B] text-[20px] leading-[150%] font-Rubik">
+                                <option value="TH/s">TH/s</option>
+                                <option value="EH/s">EH/s</option>
+                                <option value="PH/s">PH/s</option>
+                                <option value="GH/s">GH/s</option>
+                                <option value="MH/s">MH/s</option>
+                                <option value="kH/s">kH/s</option>
+                            </select>
+                        </div>
+
                     </div>
                     <div>
                         <button
-                            class="text-white text-[16px] font-Rubik leading-[150%] border border-[#3671E9] font-medium hover:border hover:border-[#3671E9] hover:bg-white hover:text-[#3671E9] rounded-[32px] px-[24px] py-[16px] bg-[#3671E9]">Calculate</button>
+                            class="text-white text-[16px] font-Rubik leading-[150%] border border-[#3671E9] font-medium hover:border hover:border-[#3671E9] hover:bg-white hover:text-[#3671E9] rounded-[32px] px-[32px] py-[16px] bg-[#3671E9]">Calculate</button>
                     </div>
                 </div>
             </div>
@@ -253,11 +280,13 @@
         <div class="container max-w-[1200px] mx-auto px-[12px]">
             <div class="flex justify-center">
                 <div class="bg-white max-w-[942px] shadow  rounded-b-[16px] p-[48px] w-full">
-                    <h4 class="text-[#3671E9] text-[16px] font-medium leading-[150%] pb-[16px] font-Rubik">ESTIMATED 24 HOUR
+                    <h4 class="text-[#3671E9] text-[16px] font-medium leading-[150%] pb-[16px] font-Rubik">ESTIMATED 24
+                        HOUR
                         REVENUE:</h4>
-                    <h3 class="text-[32px] font-bold leading-[150%] text-[#0D0D2B] pb-[4px] font-Rubik">0.055 130 59 ETH <span
-                            class="text-[#3671E9]">($1275)</span></h3>
-                    <p class="text-[16px] leading-[28px] text-[#828282] max-w-[516px] font-Rubik">Revenue will change based on
+                    <h3 class="text-[32px] font-bold leading-[150%] text-[#0D0D2B] pb-[4px] font-Rubik">0.055 130 59 ETH
+                        <span class="text-[#3671E9]">($1275)</span></h3>
+                    <p class="text-[16px] leading-[28px] text-[#828282] max-w-[516px] font-Rubik">Revenue will change
+                        based on
                         mining difficulty and Ethereum price.</p>
                 </div>
             </div>
@@ -296,7 +325,9 @@
                             </svg>
                         </div>
                         <div class="flex items-center gap-[8px] pt-[48px]">
-                            <h5 class="text-black text-[32px] font-bold leading-[150%] group-hover:text-white font-Rubik">Bitcoin
+                            <h5
+                                class="text-black text-[32px] font-bold leading-[150%] group-hover:text-white font-Rubik">
+                                Bitcoin
                             </h5>
                             <p class="text-[#BFB5D3] text-[18px] font-medium leading-[150%] font-Rubik">BTC</p>
                         </div>
@@ -343,7 +374,9 @@
                             </svg>
                         </div>
                         <div class="flex items-center gap-[8px] pt-[48px]">
-                            <h5 class="text-black text-[32px] font-bold leading-[150%] group-hover:text-white font-Rubik">Ethereum
+                            <h5
+                                class="text-black text-[32px] font-bold leading-[150%] group-hover:text-white font-Rubik">
+                                Ethereum
                             </h5>
                             <p class="text-[#BFB5D3] text-[18px] font-medium leading-[150%] font-Rubik">ETH</p>
                         </div>
@@ -392,7 +425,9 @@
                             </svg>
                         </div>
                         <div class="flex items-center gap-[8px] pt-[48px]">
-                            <h5 class="text-black text-[32px] font-bold leading-[150%] group-hover:text-white font-Rubik">Litecoin
+                            <h5
+                                class="text-black text-[32px] font-bold leading-[150%] group-hover:text-white font-Rubik">
+                                Litecoin
                             </h5>
                             <p class="text-[#BFB5D3] text-[18px] font-medium leading-[150%] font-Rubik">LTC</p>
                         </div>
@@ -426,7 +461,9 @@
     <section class="bg-[#2B076E] relative">
         <div class="container max-w-[1200px] mx-auto px-[12px]">
             <div class="flex flex-col items-center">
-                <h3 class="pt-[100px] text-white text-[36px] sm:text-[40px] font-Rubik font-bold leading-[130%] sm:leading-[150%] max-w-[758px] text-center">Market
+                <h3
+                    class="pt-[100px] text-white text-[36px] sm:text-[40px] font-Rubik font-bold leading-[130%] sm:leading-[150%] max-w-[758px] text-center">
+                    Market
                     sentiments,
                     portfolio, and run the infrastructure of your choice</h3>
             </div>
@@ -438,8 +475,10 @@
                         Get full statistic information about the behaviour of buyers and sellers will help you to make
                         the decision.</p>
                     <button
-                        class="text-white font-Rubik text-[16px] leading-[150%] font-medium  rounded-[32px] hover:bg-white hover:text-[#3671E9] px-[24px] py-[16px]  bg-[#3671E9]">Learn
-                        More</button>
+                        class="before:ease relative overflow-hidden border-white border after:border-none text-white shadow-2xl transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#3671E9] before:duration-300 hover:text-white hover:shadow-blue-500 hover:before:h-64 hover:before:-translate-y-32 rounded-[32px] px-[32px] py-[14px] hover:border-[#3671E9] font-Rubik text-[16px] font-medium leading-[150%]">
+                        <span class="relative z-10">Learn
+                            More</span>
+                    </button>
                 </div>
                 <div class="lg:w-[58.33%] md:w-[50%] w-full px-[12px]">
                     <img src="./dist/images/Chart.png" alt="" class="w-full">
@@ -457,21 +496,26 @@
                         polls you want to mine
                         in.</p>
                     <button
-                        class="text-white font-Rubik text-[16px] leading-[150%] font-medium  rounded-[32px] px-[24px] py-[16px] hover:bg-white hover:text-[#3671E9] bg-[#3671E9]">Learn
-                        More</button>
+                        class="before:ease relative overflow-hidden border-white border after:border-none text-white shadow-2xl transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#3671E9] before:duration-300 hover:text-white hover:shadow-blue-500 hover:before:h-64 hover:before:-translate-y-32 rounded-[32px] px-[32px] py-[14px] hover:border-[#3671E9] font-Rubik text-[16px] font-medium leading-[150%]">
+                        <span class="relative z-10">Learn
+                            More</span>
+                    </button>
                 </div>
             </div>
             <div class="flex flex-wrap flex-col-reverse lg:flex-row mx-[-12px] pb-[100px] pt-[45px] md:pt-[120px]">
                 <div class=" lg:w-[41.66%] md:w-[50%] w-full px-[12px] pt-[40px]">
-                    <p class="text-white text-[32px] font-bold leading-[150%] font-Rubik">Grow your profit and track your
+                    <p class="text-white text-[32px] font-bold leading-[150%] font-Rubik">Grow your profit and track
+                        your
                         investments</p>
                     <p
                         class="text-[#E0E0E0] max-w-[408px] text-[16px] leading-[28px] tracking-[0.16px] font-Rubik pt-[24px] pb-[32px]">
                         Use advanced analytical tools. Clear TradingView charts let you track current and historical
                         profit investments.</p>
                     <button
-                        class="text-white font-Rubik text-[16px] leading-[150%] font-medium  rounded-[32px] px-[24px] py-[16px] hover:bg-white hover:text-[#3671E9] bg-[#3671E9]">Learn
-                        More</button>
+                        class="before:ease relative overflow-hidden border-white border z-10 after:border-none text-white shadow-2xl transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#3671E9] before:duration-300 hover:text-white hover:shadow-blue-500 hover:before:h-64 hover:before:-translate-y-32 rounded-[32px] px-[32px] py-[14px] hover:border-[#3671E9] font-Rubik text-[16px] font-medium leading-[150%]">
+                        <span class="relative z-10">Learn
+                            More</span>
+                    </button>
                 </div>
                 <div class=" lg:w-[58.33%] md:w-[50%] w-full px-[12px] z-10">
                     <img src="./dist/images/Table.png" alt="" class="w-full">
@@ -518,8 +562,10 @@
                 </div>
                 <div class="flex flex-wrap mx-[-12px]">
                     <div class="lg:w-[41.66%] md:w-[50%] w-full px-[12px]">
-                        <h4 class="text-white text-[32px] font-bold leading-[150%] pb-[16px] font-Rubik">Start mining now</h4>
-                        <p class="text-white text-[16px] leading-[28px] max-w-[348px] font-Rubik">Join now with CRAPPO to get the
+                        <h4 class="text-white text-[32px] font-bold leading-[150%] pb-[16px] font-Rubik">Start mining
+                            now</h4>
+                        <p class="text-white text-[16px] leading-[28px] max-w-[348px] font-Rubik">Join now with CRAPPO
+                            to get the
                             latest news and start mining now</p>
                     </div>
                     <div class="lg:w-[41.66%] md:w-[50%] w-full px-[12px] flex items-center">
@@ -527,7 +573,7 @@
                             class="lg:w-[374px] font-Rubik max-md:pt-[24px] outline-0 border-b-2 placeholder:text-white text-white text-[20px] leading-[150%] bg-[#3671E9]"
                             placeholder="Enter your email">
                     </div>
-                    <div class="lg:w-[16.66%] md:w-[50%] w-full px-[12px] flex items-center">
+                    <div class="lg:w-[16.66%] md:w-[50%] w-full px-[12px] flex items-center z-10">
                         <button
                             class="text-[#0D0D2B] font-Rubik text-[16px] max-lg:mt-[24px] leading-[150%] font-medium  rounded-[32px] px-[32px] hover:bg-transparent hover:text-white hover:border py-[14px] bg-white">Subscribe</button>
                     </div>
@@ -544,7 +590,7 @@
     <section class="bg-[#0D0D2B]">
         <div class="container mx-auto px-[12px] max-w-[1200px]">
             <div class="flex flex-wrap mx-[-12px] pb-[100px] pt-[80px]">
-                <div class="lg:w-[16.66%] md:w-[50%] w-full px-[12px]">
+                <div class="lg:w-[25%] w-full px-[12px] pb-[30px]">
                     <div class="logo flex gap-[16px] items-center max-md:pb-[24px]">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
                             <path
@@ -565,44 +611,51 @@
                         <h2 class="text-[18px] font-semibold tracking-[0.72px] text-white font-Inter">CRAPPO</h2>
                     </div>
                 </div>
-                <div class="lg:w-[25%] px md:w-[50%] w-full px-[12px]">
-                    <h4 class="text-white text-[20px] font-medium leading-[150%] pb-[24px] font-Rubik">Quick Link</h4>
-                    <p><a href=""
-                            class="text-white text-[16px] leading-[38px] relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik">Home</a>
-                    </p>
-                    <p><a href=""
-                            class="text-white text-[16px] leading-[38px] relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik">Products</a>
-                    </p>
-                    <p><a href=""
-                            class="text-white text-[16px] leading-[38px] relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik">About</a>
-                    </p>
-                    <p><a href=""
-                            class="text-white text-[16px] leading-[38px] relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik">Features</a>
-                    </p>
-                    <p><a href=""
-                            class="text-white text-[16px] leading-[38px] relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik">Contact</a>
-                    </p>
-                </div>
-                <div class="lg:w-[25%] md:w-[50%] w-full px-[12px] max-md:pt-[24px]">
-                    <h4 class="text-white text-[20px] font-medium leading-[150%] pb-[24px]">Resources</h4>
-                    <p><a href=""
-                            class="text-white text-[16px] leading-[38px] relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik">Download
-                            Whitepapper</a></p>
-                    <p><a href=""
-                            class="text-white text-[16px] leading-[38px] relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik">Smart
-                            Token</a></p>
-                    <p><a href=""
-                            class="text-white text-[16px] leading-[38px] relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik">Blockchain
-                            Explorer</a></p>
-                    <p><a href=""
-                            class="text-white text-[16px] leading-[38px] relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik">Crypto
-                            API</a></p>
-                    <p><a href=""
-                            class="text-white text-[16px] leading-[38px] relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik">Interest</a>
-                    </p>
+                <div class="lg:w-[41.66%] px md:w-[50%] w-full px-[12px]">
+                    <div class="flex gap-[35px] sm:gap-[130px]">
+                        <div>
+                            <h4 class="text-white text-[20px] font-medium leading-[150%] pb-[24px] font-Rubik text-nowrap">Quick Link
+                            </h4>
+                            <p><a href=""
+                                    class="text-white text-[16px] leading-[38px] relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik">Home</a>
+                            </p>
+                            <p><a href=""
+                                    class="text-white text-[16px] leading-[38px] relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik">Products</a>
+                            </p>
+                            <p><a href=""
+                                    class="text-white text-[16px] leading-[38px] relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik">About</a>
+                            </p>
+                            <p><a href=""
+                                    class="text-white text-[16px] leading-[38px] relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik">Features</a>
+                            </p>
+                            <p><a href=""
+                                    class="text-white text-[16px] leading-[38px] relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik">Contact</a>
+                            </p>
+                        </div>
+                        <div>
+                            <h4 class="text-white text-[20px] font-medium leading-[150%] pb-[24px]">Resources</h4>
+                            <p><a href=""
+                                    class="text-white text-[16px] leading-[38px] relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik text-nowrap">Download
+                                    Whitepapper</a></p>
+                            <p><a href=""
+                                    class="text-white text-[16px] leading-[38px] relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik text-nowrap">Smart
+                                    Token</a></p>
+                            <p><a href=""
+                                    class="text-white text-[16px] leading-[38px] relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik text-nowrap">Blockchain
+                                    Explorer</a></p>
+                            <p><a href=""
+                                    class="text-white text-[16px] leading-[38px] relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik text-nowrap">Crypto
+                                    API</a></p>
+                            <p><a href=""
+                                    class="text-white text-[16px] leading-[38px] relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300 font-Rubik">Interest</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 <div class="lg:w-[33.33%] md:w-[50%] w-full px-[12px]">
-                    <h3 class="text-white text-[32px] font-medium leading-[150%] max-w-[355px] font-Rubik max-md:pt-[24px]">We accept following
+                    <h3
+                        class="text-white text-[32px] font-medium leading-[150%] max-w-[355px] font-Rubik max-md:pt-[24px]">
+                        We accept following
                         payment systems</h3>
                     <div class="flex gap-[24px] pt-[40px] flex-wrap">
                         <div class="bg-[#181834] rounded-[8px] inline-block py-[8px] px-[24px]">
@@ -655,8 +708,7 @@
             </div>
             <div class="flex flex-wrap justify-between pb-[80px] gap-[24px]">
                 <div>
-                    <p
-                        class="text-[16px] font-Rubik text-white leading-[28px] cursor-pointer relative after:absolute after:h-[1px] after:w-0 after:inline-block after:bottom-[-1px] after:left-0 hover:after:w-full after:bg-white after:duration-300">
+                    <p class="text-[16px] font-Rubik text-white leading-[28px] cursor-pointer">
                         ©2021 CRAPPO. All rights reserved</p>
                 </div>
                 <div class="flex gap-[32px]">
